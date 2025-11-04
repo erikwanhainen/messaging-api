@@ -157,3 +157,6 @@ http://localhost:8000/docs
 
 #### Concurrency
 - Currenlty synchronous endpoints with multiple workers. For higher concurrency, make endpoints async and use async database driver.
+
+#### Monitoring
+- Enable more logging
