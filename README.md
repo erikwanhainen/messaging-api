@@ -28,7 +28,7 @@ Example usage:
 curl -X GET "http://localhost:8000/messages/?recipient=user@example.com"
 ```
 ```bash
-curl -X POST "http://localhost:8000/messages/" \ 
+curl -X POST "http://localhost:8000/messages/" \
   -H "Content-Type: application/json" \
   -d '{
         "recipient": "user@example.com",
