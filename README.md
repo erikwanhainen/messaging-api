@@ -1,4 +1,4 @@
-# Messages REST API
+# Messaging REST API
 
 ## Description
 
@@ -140,9 +140,9 @@ http://localhost:8000/docs
 - Idempotency
 
 #### Code structure:
-- `src/api/`: Handles HTTP requests and responses
-- `src/services/`: Contains the business logic
-- `src/repositories/`: Handles database operations
+- `app/api/`: Handles HTTP requests and responses
+- `app/services/`: Contains the business logic
+- `app/repositories/`: Handles database operations
 
 
 ### Improvments
