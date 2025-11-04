@@ -23,6 +23,24 @@ The API will be availble at
 http://localhost:8000
 ```
 
+Example usage:
+```bash
+curl -X GET "http://localhost:8000/messages/?recipient=user@example.com"
+```
+```bash
+curl -X POST "http://localhost:8000/messages/" \ 
+  -H "Content-Type: application/json" \
+  -d '{
+        "recipient": "user@example.com",
+        "content": "Hello world"
+      }'
+```
+```bash
+curl -X DELETE "http://localhost:8000/messages/3d57f5d9-9d42-48b8-8dee-8784df7a7182"
+```
+
+See API documentation for full details.
+
 Notes:
 - docker compose creates two containers:
     - `db`: postgres 15
